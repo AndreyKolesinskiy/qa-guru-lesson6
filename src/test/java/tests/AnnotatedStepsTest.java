@@ -12,7 +12,7 @@ public class AnnotatedStepsTest {
 
     @Test
     @DisplayName("Checking that issue is displayed in the list")
-    public void searchIssueSelenideTest() {
+    public void searchIssueAnnotatedStepsTest() {
         steps.openMainPage();
         steps.searchRepository(REPOSITORY);
         steps.openRepository(REPOSITORY);
